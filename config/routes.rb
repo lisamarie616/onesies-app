@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :categories, only: [:show]
   resources :products, only: [:index]
 
   root 'products#index'
