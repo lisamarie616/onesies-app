@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :admins
+  mount RailsAdmin::Engine => '/bibs', as: 'rails_admin'
   resources :categories, only: [:show]
   resources :products, only: [:index]
 
