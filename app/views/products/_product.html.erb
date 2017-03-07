@@ -1,6 +1,5 @@
 <div class="col-12 col-sm-6 col-md-4">
   <div class="card">
-    <!-- <img data-src="holder.js/100px280/thumb" alt="Card image cap"> -->
     <a href="<%= product.link %>" target="_blank"><%= image_tag(product.photo.index_size.url, alt: product.name) %></a>
     <p class="card-text"><span><%= product.name %></span> <%= product.description %></p>
     $<%= product.price %>

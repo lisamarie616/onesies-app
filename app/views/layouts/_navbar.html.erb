@@ -5,13 +5,12 @@
   </button>
 
   <div class="container">
-    <a class="navbar-brand" href="#">coast2coast gear</a>
+    <%= link_to 'coast2coast gear', products_path, {:class => 'navbar-brand'} %>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <%= nav_link_to 'All', products_path, {:class => 'nav-link'}, {:selected_class => 'active'} %>
-          <!-- <a class="nav-link" href="#">All</a> -->
         </li>
         <%= render @categories %>
       </ul>
