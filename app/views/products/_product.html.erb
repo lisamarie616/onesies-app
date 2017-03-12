@@ -1,7 +1,8 @@
 <div class="col-12 col-sm-6 col-md-4">
   <div class="card">
     <a href="<%= product.link %>" target="_blank"><%= image_tag(product.photo.index_size.url, alt: product.name) %></a>
-    <p class="card-text"><span><%= product.name %></span> <%= product.description %></p>
+    <h5 class="card-title"><%= product.name %></h5>
+    <p class="card-text"><%= product.description %></p>
     $<%= product.price %>
   </div>
 </div>

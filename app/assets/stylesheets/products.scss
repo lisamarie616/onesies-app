@@ -9,6 +9,7 @@ body {
 
 .navbar {
   margin-bottom: 0;
+  background-color: #fa7c92;
 }
 
 .jumbotron {
@@ -33,7 +34,7 @@ body {
 .album {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #f7f7f7;
+  background: image-url('bg_texture_blue.jpg');
 }
 
 .card {
@@ -51,6 +52,14 @@ body {
 
 .card-text {
   font-size: 85%;
+}
+
+h5 .card-title {
+  margin-bottom: 0rem;
+}
+
+.card-title {
+  margin-bottom: 0rem; 
 }
 
 footer {
