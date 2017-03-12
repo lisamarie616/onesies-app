@@ -42,6 +42,7 @@ gem 'devise'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 3.5.0'
 gem 'nav_lynx'
+gem 'friendly_id'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
